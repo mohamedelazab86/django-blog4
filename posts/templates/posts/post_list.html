@@ -1,0 +1,4 @@
+<h1>ALL poSTS</h1>
+{% for post in object_list %}
+<a href="/details/{{post.id}}"><h3>{{post}}</h3></a>
+{% endfor %}
